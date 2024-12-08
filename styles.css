@@ -7,6 +7,22 @@ body {
     background-color: #ff9a57e3;
 }
 
+#data {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
 form {
     margin-bottom: 20px;
     padding: 20px;
@@ -30,25 +46,14 @@ input {
 
 button {
     padding: 10px 15px;
-    background: #007BFF;
+    background: #09ff00;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background: #0056b3;
-}
-
-.error {
-    color: red;
-    font-size: 0.8em;
-}
-
-#data {
-    padding: 20px;
-    background: #fff;
-    border: 1px solid #ccc;
+    background: #0fb300;
 }
 
 #information {
@@ -57,4 +62,9 @@ button:hover {
     color: red;
     font-size: 0.8em;
     border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
 }
