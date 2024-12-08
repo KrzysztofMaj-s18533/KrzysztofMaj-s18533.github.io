@@ -4,7 +4,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #ff9a57e3;
+    background-color: #57a5ffe3;
 }
 
 #data {
@@ -18,6 +18,8 @@ h1 {
 }
 
 h2 {
+    padding: 20px;
+    margin: 20px;
     font-weight: 700;
     background: #fff;
     border: 1px solid #ccc;
@@ -46,8 +48,8 @@ input {
 
 button {
     padding: 10px 15px;
-    background: #09ff00;
-    color: #fff;
+    background: #08d101;
+    color: #000000;
     border: none;
     cursor: pointer;
 }
