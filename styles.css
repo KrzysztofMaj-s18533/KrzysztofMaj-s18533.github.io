@@ -13,6 +13,10 @@ body {
     border: 1px solid #ccc;
 }
 
+#userData {
+    font-size: 0.8em;
+}
+
 h1 {
     font-weight: 700;
 }
