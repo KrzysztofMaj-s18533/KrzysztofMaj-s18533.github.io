@@ -1,1 +1,40 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Frontend TIN zad 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="data">
+        <h1>Dane użytkownika</h1>
+        <p id="userData"></p>
+    </div>
+
+    <h2>Formularz rejestracji</h2>
+    <form id="registrationForm">
+        <label for="name">Imię (bez znaków specjalnych):</label>
+        <input type="text" id="name" name="name" required>
+        <span class="error" id="wrongName"></span>
+
+        <label for="surname">Nazwisko (bez znaków specjalnych):</label>
+        <input type="text" id="surname" name="surname" required>
+        <span class="error" id="wrongSurname"></span>
+
+        <label for="DOB">Data urodzenia:</label>
+        <input type="date" id="DOB" name="DOB" required>
+        <span class="error" id="wrongDOB"></span>
+
+        <label for="emailAdress">Adres e-mail: (*)</label>
+        <input type="email" id="emailAdress" name="emailAdress" required>
+        <span class="error" id="wrongEmailAdress"></span>
+
+        <button type="submit">Zarejestruj</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
