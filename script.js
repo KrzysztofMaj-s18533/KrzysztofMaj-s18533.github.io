@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    //output
-    const userData = document.getElementById("userData");
-
     //formularz rejestracyjny
-    const registrationForm = document.getElementById("registrationForm");
+
     const name = document.getElementById("name");
     const surname = document.getElementById("surname");
     const emailAdress = document.getElementById("emailAdress");
@@ -73,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Funkcja modyfikująca zawartość strony
     function updateContent() {
+        const userData = document.getElementById("userData");
         const userContent = `
         Nazwa użytkownika: ${name.value + " " + surname.value}<br>
         Adres e-mail: ${emailAdress.value}<br>
@@ -82,6 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Obsługa wysłania formularza
+    const registrationForm = document.getElementById("registrationForm");
+
     registrationForm.addEventListener("submit", (event) => {
         event.preventDefault(); // Zatrzymanie domyślnego działania
         if (validateForm()) {
